@@ -1,0 +1,60 @@
+O4 (Ex.3) (Chivon Wilson 11/1/2019)
+(X0Y0 IS THE C/L OF ROTATION)
+(Z0 IS THE FACE OF THE PART)
+(STOCK:  4.25 DIA BY 6" LONG)
+(TOOL 1  TURNING TOOL 1/32 C/R INSERT [.200 MAX CUT])
+(TOOL 2  CUTOFF .2 WIDE 2" LONG INSERT)
+G20
+G50 X5.0 Z5.0
+T0101
+G96 S400 M3
+G0 X4.0 Z.01 M8
+G1 X-.1 F.01
+G0 Z.1
+X3.85
+G1 Z-1.49
+X4.02
+Z-4.3
+X4.3
+G0 Z.1
+X3.45
+G1 Z-1.49
+X4.3
+G0 Z.1
+X3.05
+G1 Z-1.49
+X3.45
+G0 Z.1
+X2.65
+G1 Z-.99
+X3.05
+G0 Z.1
+X2.25
+G1 Z-.99
+X2.65
+G0 Z.1
+X2.02
+G1 Z-.99
+X2.25
+G0 Z.01
+G1 X-.1 F0.003
+Z0
+X0
+G3 X2.0 Z-1.0 K-1.0 I0
+G3 X3.0 Z-1.5 K-.5 I0
+G3 X4.0 Z-2.0 K-.5 I0
+G1 Z-4.3
+X7.0
+Z7.0
+T0100
+
+T0202
+G96 S200
+G0 X5.0
+Z-4.2
+G1 X0
+G0 X5.0
+X5.0 Z5.0 M5
+T0200 M9
+M30
+                                                                                                  
